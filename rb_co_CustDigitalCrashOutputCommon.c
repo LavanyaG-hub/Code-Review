@@ -66,7 +66,7 @@
 /*** User constants & defines ***/
 
 /* Value to indicate VehPosRoof */
-#define RB_co_CustVehPosRoof_cu8 (uint8)1 /* private */
+#define rb_co_CustVehPosRoof_cu8 1 /* private */
 
 /* Value to indicate CustVehPosSLeft */
 #define RB_co_CustVehPosSLeft_cu8 (uint8)2 /* private */
@@ -1106,5 +1106,6 @@ static void rb_co_CustChkCOTrigFromDynnamicBit(void)
 
 /* ***** END_API [rb_co_CustCheckDCoTrigFrmSplBehBit] ***** */
 /* ***** END_SECTION API functions ***** */
+
 
 
